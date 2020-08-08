@@ -1,0 +1,219 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'style1.css' %}">
+    <script src="https://kit.fontawesome.com/3ec4c15465.js" crossorigin="anonymous"></script>
+
+    <title>Hello</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">FAARIHSAN</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#header">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="header">
+        <img src="/static/code2.gif" alt="code image" class="img-fluid" id="code-img">
+        <main>
+            <div id="home" class=" container-fluid container-lg overlay-box pt-4 d-flex flex-column justify-content-between shadow rounded">
+                <div class="row mb-4">
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="/static/my_photo.JPG" alt="foto-profil" id="foto-profil" class="img-fluid">
+                    </div>
+                    <div class="col-12 col-md-8  pr-5">
+                        <h1 class="text-center text-lg-left">I'm Faarih Ihsan</h1>
+                        <h3 class="pl-lg-5 text-center text-lg-left">Computer Science Student</h3>
+                        <hr>
+                        <div class="d-flex flex-column justify-content-around" id="bio">
+                            <div class="row justify-content-between">
+                                <div class="col-2 col-lg-2">
+                                    <h6 class="font-weight-bold">Age</h6>
+                                </div>
+                                <div class="col-9 col-lg-10">
+                                    <h6>20</h6>
+                                </div>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-2 col-lg-2">
+                                    <h6 class="font-weight-bold">Adress</h6>
+                                </div>
+                                <div class="col-9 col-lg-10">
+                                    <h6>BSD Griya Loka sektor 1.4</h6>
+                                </div>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-2 col-lg-2">
+                                    <h6 class="font-weight-bold">Email</h6>
+                                </div>
+                                <div class="col-9 col-lg-10">
+                                    <h6>mfaarihihsan26@gmail.com</h6>
+                                </div>
+                            </div>
+                            <div class="row justify-content-between">
+                                <div class="col-2 col-lg-2">
+                                    <h6 class="font-weight-bold">Phone</h6>
+                                </div>
+                                <div class="col-9 col-lg-10">
+                                    <h6>+6288210811510</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-main-card rounded-bottom">
+                    <div class="d-flex mx-auto icons-footer justify-content-center">
+                        <a href="http://intagram.com/faarihihsan"><i class="fab fa-instagram fa-2x m-2"></i></a>
+                        <a href="http://twitter.com/mfihsan"><i class="fab fa-twitter fa-2x m-2"></i></a>
+                        <a href="mailto:mfaarihihsan26@gmail.com"><i class="far fa-envelope fa-2x m-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="container resume-download d-flex justify-content-center">
+            <a href="https://drive.google.com/file/d/18SZSU1AqVseL6TmcVflh1lykB4LHLuHU/view?usp=sharing" target="_blank" class="btn btn-success tombol">Download Resume</a>
+        </div>
+    </section>
+    <section id="skill" class="upper-pad">
+        <div class="container">
+            <p id="prof-desc">2<sup>nd</sup> year information system student interested in tech and business with a growth mindset and experience in leadership and management. Currently involved in a lot on the subject Web and mobile Developing. My position as a manager
+                of the academy gives me a lot of skills for leading staff, coordinating with PIC, and working under pressure.</p>
+            <br>
+            <h3 class="text-center">Profesional Skills</h3>
+            <br>
+            <div class="container profesional-detail">
+                <div class="row p-5">
+                    <div class="col-12 col-md-6">
+                        <p>Python & Django</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <br>
+                        <p>Node.js & Express</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <br>
+                        <p>Java</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 mt-3 mt-md-0">
+                        <p>Android & Flutter</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <br>
+                        <p>PostgreSQL & MongoDB</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <br>
+                        <p>Kotlin</p>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="upper-pad">
+        <h1>These are some of my projects</h1>
+        <div class="project-tile mt-5 p-2">
+            <div class="project-content rounded">
+                <a href="https://guru-guru.herokuapp.com" target="_blank">
+                    <img src="{% static 'img/guruguru.png' %}">
+                    <p>Guruguru</p>
+                </a>
+            </div>
+            <div class="project-content rounded">
+                <a href="https://medika-go27.herokuapp.com/" target="_blank">
+                    <img src="{% static 'img/medikago.png' %}">
+                    <p>MedikaGo</p>
+                </a>
+            </div>
+            <div class="project-content rounded">
+                <a href="https://invenstorytk2.herokuapp.com" target="_blank">
+                    <img src="{% static 'img/invenstory.png' %}">
+                    <p>Invenstory</p>
+                </a>
+            </div>
+            <div class="project-content rounded">
+                <a href="https://github.com/faarihihsan/HiddenCalc" target="_blank">
+                    <img src="{% static 'img/calculator1.jpg' %}">
+                    <p>Calculator</p>
+                </a>
+            </div>
+            <div class="project-content rounded">
+                <a href="https://www.figma.com/proto/MrZVJWMrXB28HBjiH3b10944/mpkt?node-id=1%3A8&scaling=scale-down" target="_blank">
+                    <img src="{% static 'img/mpkt.JPG' %}">
+                    <p>Belajar Yuk</p>
+                </a>
+            </div>
+            <div class="project-content rounded">
+                <a href="http://story7ihsan.herokuapp.com/" target="_blank">
+                    <img src="{% static 'img/story.png' %}">
+                    <p>Story PPW</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container-fluid contact-section">
+            <h3 class="text-center">Contact Me</h3>
+            <div class="mt-4 container contact d-flex flex-column flex-md-row justify-content-center">
+                <div class="d-flex mr-3 justify-content-start justify-content-md-between  align-items-center">
+                    <i class="fab fa-instagram fa-2x m-2"></i>
+                    <p class="my-0">faarihihsan</p>
+                </div>
+                <div class="d-flex  mr-3 justify-content-start justify-content-md-between align-items-center">
+                    <i class="fab fa-twitter fa-2x m-2"></i>
+                    <p class="my-0">mfihsan</p>
+                </div>
+                <div class="d-flex mr-3 justify-content-start justify-content-md-between align-items-center">
+                    <i class="far fa-envelope fa-2x m-2"></i>
+                    <p class="my-0">mfaarihihsan26@gmail.com</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script src="/static/scripts.js"></script>
+</body>
+
+</html>
